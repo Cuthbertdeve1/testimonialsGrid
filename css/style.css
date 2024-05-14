@@ -1,0 +1,105 @@
+/* ### Primary
+
+Moderate violet: hsl(263, 55%, 52%)
+Very dark grayish blue: hsl(217, 19%, 35%)
+Very dark blackish blue: hsl(219, 29%, 14%)
+White: hsl(0, 0%, 100%)
+
+### Neutral
+
+Light gray: hsl(0, 0%, 81%)
+Light grayish blue: hsl(210, 46%, 95%)#### */
+body{
+  background-color:hsl(210, 46%, 95%);
+  font-family: 'Barlow Semi Condensed',sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+.container{
+  padding: 5rem 7rem;
+}
+.person{
+margin-bottom: 1rem;
+}
+  .person-img{
+    float: left;
+    border-radius: 100%;
+     margin-right: 1rem;
+
+  }
+  .names{
+    color: hsl(0, 0%, 81%);
+  }
+  .name{
+    color: hsl(217, 19%, 35%);
+  }
+  .names-graduate{
+    color: hsl(0 0% 81% / 50%);
+  }
+  .name-graduate{
+    color: hsl(217 19% 35% / 50%);
+  }
+  .names-reviews{
+    color: hsl(0 0% 81% / 70%);
+  }
+  .name-reviews{
+    color: hsl(217 19% 35% / 70%);
+  }
+
+.h-reviews{
+  font-weight: 600;
+  padding-bottom: 0.75rem;
+}
+
+.grid-main{
+  border-radius: 1rem;
+  padding:2rem;
+  height: 100%;
+}
+.grid1{
+  background-image:url(../images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 16%;
+ background-size: 23%;
+background-color: hsl(263, 55%, 52%);
+  color: hsl(0, 0%, 100%);
+margin-right: 0;
+}
+.grid2{
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(0, 0%, 100%);
+}
+.grid3{
+  background-color:hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
+  }
+.grid4{
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(0, 0%, 100%);
+}
+.grid5{
+  background-color:hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
+}
+@media(max-width: 992px) {
+.container{
+  padding: 5rem 0.6rem;
+}
+.grid-main{
+  padding:1.4rem;
+}
+}
+@media (max-width:576px) {
+  .container{
+    padding: 5rem 1rem;
+  }
+  .grid1{
+    background-image:url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 9%;
+   background-size: 33%;
+  }
+  h5{
+    font-size: 1.4rem;
+  }
+}
